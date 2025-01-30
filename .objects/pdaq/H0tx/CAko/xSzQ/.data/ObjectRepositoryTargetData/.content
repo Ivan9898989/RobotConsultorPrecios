@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dg9t_K-KGUSZq_PaoY9ifA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="aulasvirtuales.epn.edu.ec/my" CVScreenId="1dd764b1-f5ea-49ca-a695-bbc17136eef0" CvTextArea="886, 335, 189, 21" CvTextArgument="Logitech G305 Negro" CvType="Text" DesignTimeRectangle="887, 331, 602, 25" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='poly-component__title' parentid='root-app' tag='A' type='' aaname='Logitech G305 Negro' check:innerText='Logitech G305 Negro' /&gt;" Guid="f479bdcf-bca1-4f7d-9a25-b996dc43920a" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Logitech 305 | MercadoLibre.com.ec' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f6b98d5eba953430da7b1ea0cd7990da.png" xmlns="">08jEYKRyq6Uizf-H6VSmRSw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

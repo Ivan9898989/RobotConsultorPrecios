@@ -1,0 +1,14 @@
+﻿{
+  "Name": "httpswww.amazon.com…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "jcMOA_rvjEuKbxJz2mIX3A",
+  "Reference": "aLVlmC0O4U-yYt9lMaK8hA/jcMOA_rvjEuKbxJz2mIX3A",
+  "ParentRef": "aLVlmC0O4U-yYt9lMaK8hA/CAkoUmfPCESbtpiVSbSsQg",
+  "Created": "2025-01-30T02:53:39.0339775Z",
+  "Updated": "2025-01-30T02:53:39.0339775Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

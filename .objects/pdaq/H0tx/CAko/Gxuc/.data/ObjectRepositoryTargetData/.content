@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rXqopJMu00Kx59bGjtDU_w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="aulasvirtuales.epn.edu.ec/my" CVScreenId="2ad90d24-a8fb-43e2-b13f-4d4b09c3ab3b" CvTextArea="568, 103, 238, 14" CvTextArgument="Buscar productos, marcas y más..." CvType="Text" DesignTimeRectangle="553, 90, 588, 40" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='nav-search-input' placeholder='Buscar productos, marcas y más…' aaname='Ingresa lo que quieras encontrar' /&gt;" Guid="b3bbdda6-b4c9-43c3-b670-a525d84563d3" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Mercado Libre Ecuador - Envíos Gratis en el día' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8e1c85f849828410020c6dbf89efce08.png" xmlns="">0rRMqgSkNF0WZPj06xi5BUg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

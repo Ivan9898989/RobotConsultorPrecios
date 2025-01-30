@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6NuNRG9Fq0q91mSxaWJPog" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="aulasvirtuales.epn.edu.ec/my" DesignTimeRectangle="928, 454, 41, 36" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='andes-money-amount__fraction' parentid='price' tag='SPAN' type='' /&gt;" Guid="47dd63e5-535e-4351-932c-d9f387d0d268" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Logitech G305 Negro | Cuotas sin interés' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="856, 385, 211, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='ui-pdp-title' aaname='Logitech G305 Negro' check:innerText='Logitech G305 Negro' /&gt;" Guid="2b43e245-53cd-4269-a240-7247aa40ddeb" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="08189eca2f8924a8ea1fffcb3e598d60.png" xmlns="">0_tF1UfOIbkyCKzeufUp2FA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="h2tr40UKR0OvnPRqwAZFXg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="aulasvirtuales.epn.edu.ec/my" DesignTimeRectangle="553, 90, 588, 40" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='nav-search-input' placeholder='Buscar productos, marcas y más…' aaname='Ingresa lo que quieras encontrar' /&gt;" Guid="725caf43-afc7-474b-ba44-3460d47c5478" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Mercado Libre Ecuador - Envíos Gratis en el día' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4479321d8113fe67abb0c10028c158e1.png" xmlns="">01Zf57LLsb0mUQhiDzuw76Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">KeyboardShortcut</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

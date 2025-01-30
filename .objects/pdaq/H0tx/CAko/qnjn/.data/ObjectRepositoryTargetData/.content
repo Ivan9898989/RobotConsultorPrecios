@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="S4T8-wChkEGToEzJnLu9Cg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="aulasvirtuales.epn.edu.ec/my" CVScreenId="9ea3af96-36b9-4955-a341-dcef36b4e9d5" CvElementArea="327, 91, 1161, 43" CvType="InputBox" DesignTimeRectangle="359, 93, 1083, 38" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='twotabsearchtextbox' tag='INPUT' type='text' class='nav-input nav-progressive-attribute' placeholder='Search Amazon' aaname='Search Amazon' /&gt;" Guid="a7b4978c-24bc-4fcf-badb-ad031c1533b9" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Amazon.com. Spend less. Smile more.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9ea3af96-36b9-4955-a341-dcef36b4e9d5" CvElementArea="327, 91, 1161, 43" CvTextArea="317, 106, 16, 12" CvTextArgument="All" CvType="InputBox" DesignTimeRectangle="318, 96, 19, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='nav-search-label-id' tag='SPAN' type='' class='nav-search-label nav-progressive-content' aaname='All' check:innerText='All' /&gt;" Guid="9c8dfb61-0329-462a-bf3a-5551a43bd3fd" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="81aeba70d115827bbbd07b6b8b210214.png" xmlns="">0LP88mGPkckesFyVlf_7AAg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

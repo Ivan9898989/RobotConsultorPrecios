@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LGvONDPE30GugsVH16kDZQ" Reference="aLVlmC0O4U-yYt9lMaK8hA/9Pb75KX9GEaM9MVExmZygQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="aulasvirtuales.epn.edu.ec/my" CVScreenId="aee4205c-1d8f-4c5e-8fb7-7d7830802b52" CvTextArea="671, 408, 57, 23" CvTextArgument="$3099" CvType="Text" DesignTimeRectangle="672, 403, 56, 35" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl type='' class='' tag='SPAN' aaname='' check:innerText='$30&amp;#xA;.&amp;#xA;99' /&gt;" Guid="37be8d2c-1088-4feb-95b6-b5eaf5f1a3a5" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Amazon.com : logitech 305' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="369, 331, 291, 248" FuzzySelectorArgument="&lt;webctrl type='' class='s-product-image-container aok-relative s-text-center s-image-overlay-grey puis-image-overlay-grey s-padding-left-small s-padding-right-small puis-flex-expand-height puis puis-v73irke1zgjmv2rg3lko9s2yy4' tag='DIV' aaname='' /&gt;" Guid="ee84d1ce-b0fb-4aed-8a4f-bb1de9713c4a" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="261fa0228787a115248a8373a3c41d75.png" xmlns="">0z5TLhWYYyUeQXAefOmwNmw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

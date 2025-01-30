@@ -1,0 +1,13 @@
+﻿{
+  "Name": "$30.99",
+  "Type": "Element",
+  "Id": "9Pb75KX9GEaM9MVExmZygQ",
+  "Reference": "aLVlmC0O4U-yYt9lMaK8hA/9Pb75KX9GEaM9MVExmZygQ",
+  "ParentRef": "aLVlmC0O4U-yYt9lMaK8hA/CAkoUmfPCESbtpiVSbSsQg",
+  "Created": "2025-01-30T02:28:18.4861408Z",
+  "Updated": "2025-01-30T02:28:18.4861408Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
