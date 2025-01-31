@@ -247,7 +247,7 @@
       <AssemblyReference>Microsoft.Graph</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="&#xA;" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1276,4515" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="&#xA;" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="901.6000000000001,4757.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="producto" />
       <Variable x:TypeArguments="x:String" Name="precioMercado" />
@@ -258,29 +258,33 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Cuadro de diálogo de entrada" sap:VirtualizedContainerService.HintSize="552,271" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="¿En que producto te ayudo a ahorrar dinero?" Title="Producto a consultar">
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Cuadro de diálogo de entrada" sap:VirtualizedContainerService.HintSize="550.4,273.6" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="¿En que producto te ayudo a ahorrar dinero?" Title="Producto a consultar">
       <ui:InputDialog.Result>
         <OutArgument x:TypeArguments="x:String">[producto]</OutArgument>
       </ui:InputDialog.Result>
     </ui:InputDialog>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Nueva pestaña" sap:VirtualizedContainerService.HintSize="552,4179" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="e99572a7-f978-46c4-9675-2191c358f478" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Nueva pestaña" sap:VirtualizedContainerService.HintSize="550.4,4416.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="e99572a7-f978-46c4-9675-2191c358f478" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="518,3939" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="516.8,4176.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="precioAmazon" />
               <Variable x:TypeArguments="x:String" Name="variable1" />
               <Variable x:TypeArguments="x:String" Name="correo" />
+              <Variable x:TypeArguments="x:Int32" Name="menorVariable" />
+              <Variable x:TypeArguments="x:Int32" Name="nuevoPrecioMercado" />
+              <Variable x:TypeArguments="x:Int32" Name="nuevoPrecioAmazon" />
+              <Variable x:TypeArguments="x:String" Name="variable3" />
             </Sequence.Variables>
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'editable text Barra de …'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="484,286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="HardwareEvents" ScopeIdentifier="e99572a7-f978-46c4-9675-2191c358f478" Text="amazon.com" Version="V4">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'editable text Barra de …'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="483.2,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="HardwareEvents" ScopeIdentifier="e99572a7-f978-46c4-9675-2191c358f478" Text="amazon.com" Version="V4">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="newtab" CVScreenId="7d0e7dcd-4962-4db6-acfd-bf2e6003d61a" ContentHash="KgQiE200JEymCMHDo3I68g" CvElementArea="111, 44, 1673, 34" CvType="InputBox" DesignTimeRectangle="153, 48, 1588, 28" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Nueva pestaña: Microsoft Edge' role='pane' /&gt;&lt;ctrl name='Barra de la aplicación' role='tool bar' /&gt;&lt;ctrl name='Barra de direcciones y búsqueda' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Nueva pestaña: Microsoft Edge' role='pane' /&gt;&lt;ctrl name='Barra de la aplicación' role='tool bar' /&gt;&lt;ctrl name='Barra de direcciones y búsqueda' role='editable text' automationid='' /&gt;" Guid="07689f66-5493-4739-b343-f688da2bc117" InformativeScreenshot="e8435d1f1636082d113e9aa20c9bd807.png" Reference="aLVlmC0O4U-yYt9lMaK8hA/j7SuJpFD00GRRZKXI1AftQ" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Nueva pestaña - Escuela: Microsoft​ Edge' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
               </uix:NTypeInto.Target>
@@ -295,7 +299,7 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado" sap:VirtualizedContainerService.HintSize="484,247" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V4">
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado" sap:VirtualizedContainerService.HintSize="483.2,246.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V4">
               <uix:NKeyboardShortcuts.VerifyOptions>
                 <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                   <uix:VerifyExecutionOptions.Retry>
@@ -307,7 +311,7 @@
                 </uix:VerifyExecutionOptions>
               </uix:NKeyboardShortcuts.VerifyOptions>
             </uix:NKeyboardShortcuts>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'All'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="484,286" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="e99572a7-f978-46c4-9675-2191c358f478" Text="[producto]" Version="V4">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'All'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="483.2,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="e99572a7-f978-46c4-9675-2191c358f478" Text="[producto]" Version="V4">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="aulasvirtuales.epn.edu.ec/my" CVScreenId="9ea3af96-36b9-4955-a341-dcef36b4e9d5" ContentHash="S4T8-wChkEGToEzJnLu9Cg" CvElementArea="327, 91, 1161, 43" CvType="InputBox" DesignTimeRectangle="359, 93, 1083, 38" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='twotabsearchtextbox' tag='INPUT' type='text' class='nav-input nav-progressive-attribute' placeholder='Search Amazon' aaname='Search Amazon' /&gt;" Guid="a7b4978c-24bc-4fcf-badb-ad031c1533b9" InformativeScreenshot="81aeba70d115827bbbd07b6b8b210214.png" IsResponsive="True" Reference="aLVlmC0O4U-yYt9lMaK8hA/qnjnDi4RUkmCwOxygc4MAA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Amazon.com. Spend less. Smile more.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -328,7 +332,7 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado" sap:VirtualizedContainerService.HintSize="484,247" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V4">
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado" sap:VirtualizedContainerService.HintSize="483.2,246.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V4">
               <uix:NKeyboardShortcuts.VerifyOptions>
                 <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                   <uix:VerifyExecutionOptions.Retry>
@@ -340,7 +344,7 @@
                 </uix:VerifyExecutionOptions>
               </uix:NKeyboardShortcuts.VerifyOptions>
             </uix:NKeyboardShortcuts>
-            <uix:NGetText DisplayName="Obtener texto '$30.99'" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="e99572a7-f978-46c4-9675-2191c358f478" TextString="[precioAmazon]" Version="V4">
+            <uix:NGetText DisplayName="Obtener texto '$30.99'" sap:VirtualizedContainerService.HintSize="483.2,189.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="e99572a7-f978-46c4-9675-2191c358f478" TextString="[precioAmazon]" Version="V4">
               <uix:NGetText.Target>
                 <uix:TargetAnchorable BrowserURL="aulasvirtuales.epn.edu.ec/my" CVScreenId="aee4205c-1d8f-4c5e-8fb7-7d7830802b52" ContentHash="LGvONDPE30GugsVH16kDZQ" CvTextArea="671, 408, 57, 23" CvTextArgument="$3099" CvType="Text" DesignTimeRectangle="672, 403, 56, 35" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl type='' class='' tag='SPAN' aaname='' check:innerText='$30&amp;#xA;.&amp;#xA;99' /&gt;" Guid="37be8d2c-1088-4feb-95b6-b5eaf5f1a3a5" InformativeScreenshot="261fa0228787a115248a8373a3c41d75.png" Reference="aLVlmC0O4U-yYt9lMaK8hA/9Pb75KX9GEaM9MVExmZygQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Amazon.com : logitech 305' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -351,19 +355,19 @@
                 </uix:TargetAnchorable>
               </uix:NGetText.Target>
             </uix:NGetText>
-            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Nueva pestaña" sap:VirtualizedContainerService.HintSize="484,1824" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="13777cd3-b926-4fd7-999b-3ad0ddddfefc" Version="V2">
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Nueva pestaña" sap:VirtualizedContainerService.HintSize="483.2,1825.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="13777cd3-b926-4fd7-999b-3ad0ddddfefc" Version="V2">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="450,1575" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="449.6,1576.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'editable text Barra de …(1)'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="HardwareEvents" ScopeIdentifier="13777cd3-b926-4fd7-999b-3ad0ddddfefc" Text="mercadolibre.com.ec" Version="V4">
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'editable text Barra de …(1)'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="HardwareEvents" ScopeIdentifier="13777cd3-b926-4fd7-999b-3ad0ddddfefc" Text="mercadolibre.com.ec" Version="V4">
                       <uix:NTypeInto.Target>
                         <uix:TargetAnchorable BrowserURL="aulasvirtuales.epn.edu.ec/my" ContentHash="iGkB5milwUGYKJcN2L5Ghw" DesignTimeRectangle="153, 48, 1492, 28" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Amazon.com : logitech 305: Microsoft Edge' role='pane' /&gt;&lt;ctrl name='Barra de la aplicación' role='tool bar' /&gt;&lt;ctrl name='Barra de direcciones y búsqueda' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Amazon.com : logitech 305: Microsoft Edge' role='pane' /&gt;&lt;ctrl name='Barra de la aplicación' role='tool bar' /&gt;&lt;ctrl name='Barra de direcciones y búsqueda' role='editable text' automationid='' /&gt;" Guid="95e97a8e-1532-4148-99de-2d228b3dadfa" InformativeScreenshot="7a9ba77cd6a9722863f58c2635bb7947.png" Reference="aLVlmC0O4U-yYt9lMaK8hA/IT1uUMM7kk-gtJTOfNwO3Q" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Amazon.com : logitech 305 y 1 página más - Escuela: Microsoft​ E*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
                       </uix:NTypeInto.Target>
@@ -378,7 +382,7 @@
                         </uix:VerifyExecutionTypeIntoOptions>
                       </uix:NTypeInto.VerifyOptions>
                     </uix:NTypeInto>
-                    <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado 'httpswww.amazon.com…'" sap:VirtualizedContainerService.HintSize="416,267" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" ScopeIdentifier="13777cd3-b926-4fd7-999b-3ad0ddddfefc" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V4">
+                    <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado 'httpswww.amazon.com…'" sap:VirtualizedContainerService.HintSize="416,267.2" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" ScopeIdentifier="13777cd3-b926-4fd7-999b-3ad0ddddfefc" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V4">
                       <uix:NKeyboardShortcuts.Target>
                         <uix:TargetAnchorable BrowserURL="aulasvirtuales.epn.edu.ec/my" ContentHash="JQWJIf2j50iGSdkRRR6GYw" DesignTimeRectangle="153, 48, 1492, 28" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Amazon.com : logitech 305: Microsoft Edge' role='pane' /&gt;&lt;ctrl name='Barra de la aplicación' role='tool bar' /&gt;&lt;ctrl name='Barra de direcciones y búsqueda' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Amazon.com : logitech 305: Microsoft Edge' role='pane' /&gt;&lt;ctrl name='Barra de la aplicación' role='tool bar' /&gt;&lt;ctrl name='Barra de direcciones y búsqueda' role='editable text' automationid='' /&gt;" Guid="a19bd790-0376-4fbc-b49c-4064cdc044b5" InformativeScreenshot="7a9ba77cd6a9722863f58c2635bb7947.png" Reference="aLVlmC0O4U-yYt9lMaK8hA/jcMOA_rvjEuKbxJz2mIX3A" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Amazon.com : logitech 305 y 1 página más - Escuela: Microsoft​ E*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
                       </uix:NKeyboardShortcuts.Target>
@@ -393,7 +397,7 @@
                         </uix:VerifyExecutionOptions>
                       </uix:NKeyboardShortcuts.VerifyOptions>
                     </uix:NKeyboardShortcuts>
-                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'INPUT cb1-edit'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="13777cd3-b926-4fd7-999b-3ad0ddddfefc" Text="[producto]" Version="V4">
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'INPUT cb1-edit'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="13777cd3-b926-4fd7-999b-3ad0ddddfefc" Text="[producto]" Version="V4">
                       <uix:NTypeInto.Target>
                         <uix:TargetAnchorable BrowserURL="aulasvirtuales.epn.edu.ec/my" CVScreenId="2ad90d24-a8fb-43e2-b13f-4d4b09c3ab3b" ContentHash="rXqopJMu00Kx59bGjtDU_w" CvTextArea="568, 103, 238, 14" CvTextArgument="Buscar productos, marcas y más..." CvType="Text" DesignTimeRectangle="553, 90, 588, 40" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='nav-search-input' placeholder='Buscar productos, marcas y más…' aaname='Ingresa lo que quieras encontrar' /&gt;" Guid="b3bbdda6-b4c9-43c3-b670-a525d84563d3" InformativeScreenshot="8e1c85f849828410020c6dbf89efce08.png" Reference="aLVlmC0O4U-yYt9lMaK8hA/Gxuc-O7VYUeE29CRB-h7LA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Mercado Libre Ecuador - Envíos Gratis en el día' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
                       </uix:NTypeInto.Target>
@@ -408,7 +412,7 @@
                         </uix:VerifyExecutionTypeIntoOptions>
                       </uix:NTypeInto.VerifyOptions>
                     </uix:NTypeInto>
-                    <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado 'logitech 305'" sap:VirtualizedContainerService.HintSize="416,267" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_4" ScopeIdentifier="13777cd3-b926-4fd7-999b-3ad0ddddfefc" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V4">
+                    <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado 'logitech 305'" sap:VirtualizedContainerService.HintSize="416,267.2" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_4" ScopeIdentifier="13777cd3-b926-4fd7-999b-3ad0ddddfefc" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V4">
                       <uix:NKeyboardShortcuts.Target>
                         <uix:TargetAnchorable BrowserURL="aulasvirtuales.epn.edu.ec/my" ContentHash="h2tr40UKR0OvnPRqwAZFXg" DesignTimeRectangle="553, 90, 588, 40" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='nav-search-input' placeholder='Buscar productos, marcas y más…' aaname='Ingresa lo que quieras encontrar' /&gt;" Guid="725caf43-afc7-474b-ba44-3460d47c5478" InformativeScreenshot="4479321d8113fe67abb0c10028c158e1.png" Reference="aLVlmC0O4U-yYt9lMaK8hA/cEp8xPE8BEeJJgFn91iWvQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Mercado Libre Ecuador - Envíos Gratis en el día' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
                       </uix:NKeyboardShortcuts.Target>
@@ -423,7 +427,7 @@
                         </uix:VerifyExecutionOptions>
                       </uix:NKeyboardShortcuts.VerifyOptions>
                     </uix:NKeyboardShortcuts>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Logitech G305 Negro'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="13777cd3-b926-4fd7-999b-3ad0ddddfefc" Version="V4">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Logitech G305 Negro'" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="13777cd3-b926-4fd7-999b-3ad0ddddfefc" Version="V4">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="aulasvirtuales.epn.edu.ec/my" CVScreenId="1dd764b1-f5ea-49ca-a695-bbc17136eef0" ContentHash="dg9t_K-KGUSZq_PaoY9ifA" CvTextArea="886, 335, 189, 21" CvTextArgument="Logitech G305 Negro" CvType="Text" DesignTimeRectangle="887, 331, 602, 25" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='poly-component__title' parentid='root-app' tag='A' type='' aaname='Logitech G305 Negro' check:innerText='Logitech G305 Negro' /&gt;" Guid="f479bdcf-bca1-4f7d-9a25-b996dc43920a" InformativeScreenshot="f6b98d5eba953430da7b1ea0cd7990da.png" Reference="aLVlmC0O4U-yYt9lMaK8hA/xSzQHbkTz0ePza3qahdscw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Logitech 305 | MercadoLibre.com.ec' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
                       </uix:NClick.Target>
@@ -438,7 +442,7 @@
                         </uix:VerifyExecutionOptions>
                       </uix:NClick.VerifyOptions>
                     </uix:NClick>
-                    <uix:NGetText DisplayName="Obtener texto 'Logitech G305 Negro'" sap:VirtualizedContainerService.HintSize="416,182" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="13777cd3-b926-4fd7-999b-3ad0ddddfefc" TextString="[precioMercado]" Version="V4">
+                    <uix:NGetText DisplayName="Obtener texto 'Logitech G305 Negro'" sap:VirtualizedContainerService.HintSize="416,182.4" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="13777cd3-b926-4fd7-999b-3ad0ddddfefc" TextString="[precioMercado]" Version="V4">
                       <uix:NGetText.Target>
                         <uix:TargetAnchorable BrowserURL="aulasvirtuales.epn.edu.ec/my" ContentHash="6NuNRG9Fq0q91mSxaWJPog" DesignTimeRectangle="928, 454, 41, 36" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='andes-money-amount__fraction' parentid='price' tag='SPAN' type='' /&gt;" Guid="47dd63e5-535e-4351-932c-d9f387d0d268" InformativeScreenshot="08189eca2f8924a8ea1fffcb3e598d60.png" Reference="aLVlmC0O4U-yYt9lMaK8hA/dfH2p65IF0mtigxOOLLITQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Logitech G305 Negro | Cuotas sin interés' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
                           <uix:TargetAnchorable.Anchors>
@@ -456,12 +460,28 @@
                 <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Edge" ContentHash="K02CGej3zU2wD-6yj6km4g" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAASdJREFUWEftl9sNwjAQBK8ESqAUOoEOoAMogY4ohRIoAbQoJ1m2JyHJ8gUjWYq89q3j+HGJ+NOyi4hbRDwi4mksirmvzWrOnY7uIo8uh6LRJSI2dYOBbDMHxToVfTXLDZoiiWo4xpIBJHox9ZVXQwamN0/WDECx1Vfrq+HTwLk4t7XwIeiDQkVO49rSgEKHq2GbNqBgBn1QMIM+KJhBHxTMoA8KZtAHBTPoQ4JuMG25e3Wbza1PyAcFBUqtPELn1ifkg0J54Cj40vqEfFDQNa1ACqznpfUJ+bBgBn1QMIM+KJhBHxTMoA8KZtAnt89USraGTMm6A8ikVBnPtzgOHt2kVKlyjk6ZsXMmFKv85+gd0W9c+d5YmZxhnV75OVxF60sxuz8kv80LzI8Nz/1reB8AAAAASUVORK5CYII=" InformativeScreenshot="521809d581457fc85c9eb2c33f0ef78e.png" Reference="aLVlmC0O4U-yYt9lMaK8hA/CAkoUmfPCESbtpiVSbSsQg" Selector="&lt;html app='msedge.exe' title='Nueva pestaña' /&gt;" Title="Nueva pestaña" Url="edge://newtab/" Version="V1" />
               </uix:NApplicationCard.TargetApp>
             </uix:NApplicationCard>
-            <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Cuadro de diálogo de entrada" sap:VirtualizedContainerService.HintSize="484,271" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Ingresa tu correo para enviarte la lista de precios" Title="Ingresa tu correo">
+            <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="483.2,114.4" sap2010:WorkflowViewState.IdRef="Assign_1">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:Int32">[nuevoPrecioAmazon]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Int32">[CInt(precioAmazon.Replace("$", ""))]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="483.2,114.4" sap2010:WorkflowViewState.IdRef="Assign_2">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:Int32">[nuevoPrecioMercado]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Int32">[CInt(precioMercado.Replace("$", ""))]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Cuadro de diálogo de entrada" sap:VirtualizedContainerService.HintSize="483.2,273.6" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Ingresa tu correo para enviarte la lista de precios" Title="Ingresa tu correo">
               <ui:InputDialog.Result>
                 <OutArgument x:TypeArguments="x:String">[correo]</OutArgument>
               </ui:InputDialog.Result>
             </ui:InputDialog>
-            <umam:SendMailConnections ArgumentAttachmentPaths="{x:Null}" AttachmentList="{x:Null}" AttachmentPaths="{x:Null}" Attachments="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Mailbox="{x:Null}" ReplyTo="{x:Null}" TextBody="{x:Null}" AttachmentInputMode="Existing" AuthScopesInvalid="False" Body="[string.Format(&quot;&lt;P&gt;&lt;SPAN&gt;Lista de precios para &lt;/SPAN&gt;&lt;SPAN&gt;&lt;STRONG&gt;{0}&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;UL&gt;&lt;LI&gt;&lt;P&gt;&lt;SPAN&gt;Precio en &lt;/SPAN&gt;&lt;SPAN&gt;&lt;EM&gt;Amazon.com&lt;/EM&gt;&lt;/SPAN&gt;&lt;SPAN&gt;: &lt;/SPAN&gt;&lt;SPAN&gt;&lt;STRONG&gt;{1}&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/LI&gt;&lt;LI&gt;&lt;P&gt;&lt;SPAN&gt;Precio en &lt;/SPAN&gt;&lt;SPAN&gt;&lt;EM&gt;Mercadolibre.com.ec&lt;/EM&gt;&lt;/SPAN&gt;&lt;SPAN&gt;: &lt;/SPAN&gt;&lt;SPAN&gt;&lt;STRONG&gt;$&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;SPAN&gt;&lt;STRONG&gt;{2}&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/LI&gt;&lt;/UL&gt;&quot;, producto, precioAmazon, precioMercado)]" ConnectionId="f85c69cb-7914-40c9-9de6-07e4dba358bc" DisplayName="Enviar correo electrónico" sap:VirtualizedContainerService.HintSize="484,527" sap2010:WorkflowViewState.IdRef="SendMailConnections_1" Importance="Normal" InputType="HTML" SaveAsDraft="False" Subject="[&quot;Lista de precios para &quot;+ producto]" To="[New List(Of String) From {correo}]" UseConnectionService="True" UseSharedMailbox="False">
+            <umam:SendMailConnections ArgumentAttachmentPaths="{x:Null}" AttachmentList="{x:Null}" AttachmentPaths="{x:Null}" Attachments="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Mailbox="{x:Null}" ReplyTo="{x:Null}" TextBody="{x:Null}" AttachmentInputMode="Existing" AuthScopesInvalid="False" Body="[string.Format(&quot;&lt;P&gt;&lt;SPAN&gt;Lista de precios para &lt;/SPAN&gt;&lt;SPAN&gt;&lt;STRONG&gt;{0}&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;UL&gt;&lt;LI&gt;&lt;P&gt;&lt;SPAN&gt;Precio en &lt;/SPAN&gt;&lt;SPAN&gt;&lt;EM&gt;Amazon.com&lt;/EM&gt;&lt;/SPAN&gt;&lt;SPAN&gt;: &lt;/SPAN&gt;&lt;SPAN&gt;&lt;STRONG&gt;{1}&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/LI&gt;&lt;LI&gt;&lt;P&gt;&lt;SPAN&gt;Precio en &lt;/SPAN&gt;&lt;SPAN&gt;&lt;EM&gt;Mercadolibre.com.ec&lt;/EM&gt;&lt;/SPAN&gt;&lt;SPAN&gt;: &lt;/SPAN&gt;&lt;SPAN&gt;&lt;STRONG&gt;$&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;SPAN&gt;&lt;STRONG&gt;{2}&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;P&gt;&lt;SPAN&gt;El precio menor es de: &lt;/SPAN&gt;&lt;SPAN&gt;{3}&lt;/SPAN&gt;&lt;/P&gt;&quot;, producto, precioAmazon, precioMercado, menorVariable.ToString)]" ConnectionId="6a27e9ef-638d-4ced-80ec-147bd1dfa3cc" DisplayName="Enviar correo electrónico" sap:VirtualizedContainerService.HintSize="483.2,532" sap2010:WorkflowViewState.IdRef="SendMailConnections_1" Importance="Normal" InputType="HTML" SaveAsDraft="False" Subject="[&quot;Lista de precios para &quot;+ producto]" To="[New List(Of String) From {correo}]" UseConnectionService="True" UseSharedMailbox="False">
               <umam:SendMailConnections.AttachmentsBackup>
                 <usau:BackupSlot x:TypeArguments="umame:AttachmentInputMode" StoredValue="Existing">
                   <usau:BackupSlot.BackupValues>
