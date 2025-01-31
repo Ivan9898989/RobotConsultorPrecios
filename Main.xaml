@@ -247,7 +247,7 @@
       <AssemblyReference>Microsoft.Graph</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="&#xA;" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="901.6000000000001,4757.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="&#xA;" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="901.6000000000001,4872" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="producto" />
       <Variable x:TypeArguments="x:String" Name="precioMercado" />
@@ -263,13 +263,13 @@
         <OutArgument x:TypeArguments="x:String">[producto]</OutArgument>
       </ui:InputDialog.Result>
     </ui:InputDialog>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Nueva pestaña" sap:VirtualizedContainerService.HintSize="550.4,4416.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="e99572a7-f978-46c4-9675-2191c358f478" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Nueva pestaña" sap:VirtualizedContainerService.HintSize="550.4,4531.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="e99572a7-f978-46c4-9675-2191c358f478" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="516.8,4176.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="516.8,4291.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="precioAmazon" />
               <Variable x:TypeArguments="x:String" Name="variable1" />
@@ -474,6 +474,14 @@
               </Assign.To>
               <Assign.Value>
                 <InArgument x:TypeArguments="x:Int32">[CInt(precioMercado.Replace("$", ""))]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="483.2,114.4" sap2010:WorkflowViewState.IdRef="Assign_3">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:Int32">[menorVariable]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Int32">[Math.Min(nuevoPrecioAmazon, nuevoPrecioMercado)]</InArgument>
               </Assign.Value>
             </Assign>
             <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Cuadro de diálogo de entrada" sap:VirtualizedContainerService.HintSize="483.2,273.6" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Ingresa tu correo para enviarte la lista de precios" Title="Ingresa tu correo">
